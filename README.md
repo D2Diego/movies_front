@@ -1,17 +1,40 @@
+# Movie_front
 
-*Projeto Catálogo de Filmes
-Sobre o Projeto
-Este projeto é um catálogo de filmes desenvolvido em React, utilizando o Vite como configurador inicial. O site permite aos usuários montar um catálogo personalizado de filmes, onde é possível avaliar filmes com notas e classificá-los usando diferentes tags.
+## Descrição
+`Movie_front` é a interface frontend para uma aplicação de cadastro e classificação de filmes. O projeto permite que os usuários registrem uma conta com verificação de email, carreguem uma imagem de perfil, e cadastrem filmes com notas, classificações e descrições. Ele serve para organizar e manter um registro de todas as sessões de filmes preferidas do usuário, incluindo estilos.
 
-**Características
-Catalogação de Filmes: Os usuários podem adicionar filmes ao catálogo com detalhes relevantes.
-Avaliação de Filmes: Os filmes podem ser avaliados com notas pelos usuários.
-Classificação por Tags: Os filmes podem ser classificados e filtrados usando várias tags.
-Componentes Reutilizáveis: O site foi construído com uma arquitetura de componentes reutilizáveis para eficiência e escalabilidade.
+## Tecnologias Utilizadas
+- axios ^1.6.5
+- date-fns ^2.30.0
+- react ^18.2.0
+- react-dom ^18.2.0
+- react-icons ^4.11.0
+- react-router-dom ^6.15.0
+- styled-components ^6.0.7
 
-**Tecnologias Utilizadas
-React: Biblioteca JavaScript para construção da interface de usuário.
-Vite: Ferramenta de construção moderna e rápida para projetos React.
+## Instalação
+Para rodar o projeto, siga os passos abaixo:
+```bash
+git clone [URL_DO_REPOSITÓRIO]
+npm install
+```
+## Como Usar
+Após instalar todas as dependências, você pode iniciar o servidor com:
+```bash
+npm run dev
+```
+Acesse a aplicação pelo navegador para criar sua conta e começar a desfrutar do site de classificação de filmes.
 
-**Estrutura do Projeto
-O projeto é dividido em vários componentes para facilitar a manutenção e a expansão futura. Cada componente é responsável por uma funcionalidade específica no site.
+## Contribuição
+Este projeto foi desenvolvido como um estudo prático de novos conhecimentos. Contribuições que proporcionem melhorias ou novas funcionalidades são sempre bem-vindas.
+
+## Licença
+Este projeto está licenciado sob a Licença MIT.
+
+## Agradecimentos
+Agradecimentos especiais à [Rocketseat](https://rocketseat.com.br/) pelos conhecimentos adquiridos durante o desenvolvimento deste projeto.
+
+## Contato
+Para mais informações ou colaborações, contate-me via:
+- LinkedIn: [Diego Cardoso Marques](https://www.linkedin.com/in/diego-cardoso-marques)
+- Email: [devmarques1508@gmail.com](mailto:devmarques1508@gmail.com)
